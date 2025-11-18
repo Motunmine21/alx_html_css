@@ -31,3 +31,9 @@ aside {
 header, footer {
     padding: 20px;
 }
+
+@media (max-width: 768px) {
+  main {
+    flex-direction: column; /* stack article and aside vertically on small screens */
+  }
+}
