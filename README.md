@@ -1,0 +1,1 @@
+This project is a fully functional, front-end only website built using pure HTML5, CSS3, and vanilla JavaScript. It adheres strictly to the requirement of no external libraries or frameworks.
