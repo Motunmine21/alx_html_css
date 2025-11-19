@@ -37,3 +37,19 @@ header, footer {
     flex-direction: column; /* stack article and aside vertically on small screens */
   }
 }
+.logo {
+    font-size: 2rem;
+    padding-right: 15px;
+}
+body {
+    background-color: #f8f9fa;
+}
+
+header ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+}
