@@ -1,1 +1,155 @@
+.first{
+      background-image: url("IMAGES/image10.png");
+      text-align: center;
+      display: flex;
+      justify-items: center;
+      flex-direction: column;
+      align-items: center;
+      width: 1440px;
+      height: 1093px;
+      background-repeat: no-repeat;
+      background-position: top;
+
+}
+
+header {
+  width: 80%;                /* make header full width */
+  padding: 20px 50px;
+  position: relative;         /* not absolute unless needed */
+}
+
+nav {
+  display: flex;              /* row layout */
+  justify-content: space-between; /* logo left, links right */
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;              
+  gap: 50px;                 
+  list-style: none;         
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+}
+.section1 {
+  text-align: center;         
+  padding: 100px;           /
+}
+
+.section1 h1 {  
+  margin-bottom: 5px;
+  color: #fff;   
+  font-size: 120px;  
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.keyword {
+  display: flex;                
+  justify-content: center;      
+  gap: 50px;                   
+  margin-bottom: 30px;   
+  color: #fff;    
+}
+
+.keyword .me {
+  font-weight: light;
+  font-size: 14px;    
+  font-family: 'Source Sans Pro', sans-serif;        
+}
+
+button.me {
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: #c27ffc;
+  color: #fff;
+}
+
+
+.pros-section {
+    text-align: center;
+    padding: 60px 0;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.pros-section {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.pros-section h2 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.pros-section h2 .highlight {
+    font-weight: 700;
+    color: #C271FF;
+}
+
+.pros-section h2 span.light-text {
+    font-weight: 300;
+    color: white;
+}
+
+
+
+.pros-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 20px;
+}
+
+
+.pro-card {
+    text-align: center;
+    width: 180px; 
+}
+
+.pro-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    object-fit: cover;
+}
+
+.pro-card h3 {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.pro-card p {
+    margin-top: 5px;
+    font-size: 16px;
+    font-style: italic;
+    color: #fff; 
+}
+
+
+
+
+
+
+
+ 
+
+
+
+       
 
