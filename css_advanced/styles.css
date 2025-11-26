@@ -188,17 +188,127 @@ button.me {
     font-style: italic;
 }
 
+.popular-tutorials {
+  width: 1228px;
+  margin: 100px;
+  display: flex;
+  gap: 40px; 
+  flex-wrap: wrap;
+  height: 450px;
+}
+
+.popular-tutorials h2 {
+  width: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.tutorial-card {
+  width: 255px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px; 
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
 
+.tutorial-card img:first-child {
+  width: 255px;
+  height: 154px;
+  object-fit: cover;
+  border-radius:5px; 
+}
 
 
+.tutorial-card h3 {
+  font-weight: 700;
+  font-size: 16px;
+}
 
+
+.tutorial-card p:first-of-type {
+  width: 242px;
+  font-family: "Source Sans Pro";
+  font-weight: lighter
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: 13px;
+  margin-top: -20px;
+}
+.author {
+  display: flex;
+  align-items: center;
+  gap: 8px;          
+  white-space: nowrap; 
+}
+
+.author img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+
+}
+
+.author h4 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;    
+  white-space: nowrap; 
+  color: #C271FF;
+}
+
+.stars-and-time {
+  display: flex;
+  align-items: center;
+  gap: 12px;       
+}
+
+.stars {
+  display: flex;
+  gap: 3px;
+}
+
+.stars i.fa-solid {
+  color: #C271FF;  
+}
+
+.stars i.fa-regular {
+  color:  lightgrey;    
+}
+
+.time {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 27px;
+  margin: 0;
+  white-space: nowrap;
+  color: #C271FF;
+}
+.popular-title {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 32px;
+  line-height: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.popular-title .light {
+  font-weight: 300;
+}
+
+.popular-title .bold {
+  font-weight: 700;
+  color: #C271FF;
+  
+}
+
+  
 
 
 
  
-
-
-
-       
-
