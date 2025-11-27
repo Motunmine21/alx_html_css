@@ -6,9 +6,10 @@
       flex-direction: column;
       align-items: center;
       width: 1440px;
-      height: 1093px;
+      height: 970px;
       background-repeat: no-repeat;
       background-position: top;
+      margin: auto;
 
 }
 
@@ -77,6 +78,7 @@ button.me {
 .pros-section {
     text-align: center;
     padding: 60px 0;
+    margin-top: -30px;
     color: #fff;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -148,9 +150,9 @@ button.me {
     justify-content: center;
     align-items: center;
     gap: 40px;
-    color: white;
-     margin-top: -110px; 
-  padding-top: 20px; 
+    color: white; 
+  margin: auto;
+  
 }
 
 .testimonial-section img {
@@ -190,106 +192,16 @@ button.me {
 
 .popular-tutorials {
   width: 1228px;
-  margin: 100px;
+  margin: auto;
   display: flex;
   gap: 40px; 
   flex-wrap: wrap;
-  height: 450px;
+  padding: 40px 0;
+  justify-content: center;
 }
 
-.popular-tutorials h2 {
-  width: 100%;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 100%;
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-.tutorial-card {
-  width: 255px;
-  display: flex;
-  flex-direction: column;
-  gap: 16px; 
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-
-.tutorial-card img:first-child {
-  width: 255px;
-  height: 154px;
-  object-fit: cover;
-  border-radius:5px; 
-}
-
-
-.tutorial-card h3 {
-  font-weight: 700;
-  font-size: 16px;
-}
-
-
-.tutorial-card p:first-of-type {
-  width: 242px;
-  font-family: "Source Sans Pro";
-  font-weight: lighter
-  font-size: 14px;
-  line-height: 24px;
-  margin-left: 13px;
-  margin-top: -20px;
-}
-.author {
-  display: flex;
-  align-items: center;
-  gap: 8px;          
-  white-space: nowrap; 
-}
-
-.author img {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-
-}
-
-.author h4 {
-  margin: 0;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1;    
-  white-space: nowrap; 
-  color: #C271FF;
-}
-
-.stars-and-time {
-  display: flex;
-  align-items: center;
-  gap: 12px;       
-}
-
-.stars {
-  display: flex;
-  gap: 3px;
-}
-
-.stars i.fa-solid {
-  color: #C271FF;  
-}
-
-.stars i.fa-regular {
-  color:  lightgrey;    
-}
-
-.time {
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 27px;
-  margin: 0;
-  white-space: nowrap;
-  color: #C271FF;
-}
 .popular-title {
+  width: 100%;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 32px;
   line-height: 100%;
@@ -304,18 +216,127 @@ button.me {
 .popular-title .bold {
   font-weight: 700;
   color: #C271FF;
-  
+}
+
+
+.tutorial-card {
+  position: relative;  
+  width: 255px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px; 
+  font-family: 'Source Sans Pro', sans-serif;
+  cursor: pointer; 
+}
+
+
+.tutorial-card img:first-child {
+  width: 255px;
+  height: 154px;
+  object-fit: cover;
+  border-radius: 5px; 
+  display: block;
+}
+
+.tutorial-card .play-icon {
+  position: absolute;
+  top: 20%;  
+  left: 50%;
+  width: 64px;
+  height: 64px;
+  transform: translate(-50%, -50%);
+  pointer-events: none; 
+  opacity: 1;
+}
+
+
+
+.tutorial-card:hover .play-icon {
+  opacity: 1; 
+}
+
+
+.tutorial-card h3 {
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0 16px;
+}
+
+.tutorial-card p:first-of-type {
+  width: 242px;
+  font-family: "Source Sans Pro";
+  font-weight: lighter;
+  font-size: 14px;
+  line-height: 24px;
+  margin: -20px 13px 0;
+}
+
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 8px;          
+  white-space: nowrap; 
+  margin-left: 13px;
+}
+
+.author img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.author h4 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;    
+  white-space: nowrap; 
+  color: #C271FF;
+}
+
+
+.stars-and-time {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: 13px;
+}
+
+.stars {
+  display: flex;
+  gap: 3px;
+}
+
+.stars i.fa-solid {
+  color: #C271FF;  
+}
+
+.stars i.fa-regular {
+  color: lightgrey;    
+}
+
+.time {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 27px;
+  margin: 0;
+  white-space: nowrap;
+  color: #C271FF;
 }
 
 .free-membership {
-    width: 70%;
+    max-width: 1440px;   
+    width: 100%;        
+    background-color: #071629;
     padding: 80px 0;
+    margin: 100px auto 0; 
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
-    margin-top: 250px;
-    background-color: #071629;
-    width: 1440px;
+    position: relative;
+    
 }
+
 
 .fm-title {
     font-size: 32px;
@@ -383,9 +404,9 @@ button.me {
     cursor: pointer;
 }
 .faq-section {
-    width: 920px;        /* from layout */
+    width: 920px;        
     margin:  auto;
-    padding-top: 80px;   /* replaces top: 2678px */
+    padding-top: 40px;   
     
 }
 
@@ -398,19 +419,18 @@ button.me {
     margin-bottom: 60px;
 }
 
-/* 2 columns for FAQ */
+
 .faq-columns {
     display: flex;
     justify-content: space-between;
     gap: 40px;
 }
 
-/* Each column */
+
 .faq-column {
-    width: 350px;     /* matches your Figma width */
+    width: 350px;     
 }
 
-/* Question */
 .faq-question {
     font-family: "Source Sans Pro";
     font-weight: 700;
@@ -419,13 +439,62 @@ button.me {
     margin-bottom: 12px;
 }
 
-/* Answer text */
 .faq-answer {
     font-family: "Source Sans Pro";
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     margin-bottom: 35px;
+}
+footer {
+    width: 1440px;           
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer section {
+    width: 100%;
+    padding: 95px 165px 0 165px;
+    background-color: #071629; 
+    
+
+}
+
+
+footer section > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img {
+    width: 169px;   
+    height: 30px;
+}
+
+social-icons {
+    display: flex;
+    gap: 50px; 
+  
+}
+
+.social-icons i {
+    font-size: 30px;
+    background-color: #fff;
+    
+}
+
+footer p {
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    font-size: 12px;
+    opacity: 0.35;
+    text-align: center;
+
+    margin-top: 40px;  
+    color: #fff;  
 }
 
 
