@@ -1,0 +1,156 @@
+
+.first{
+    background-image: url(/IMAGES/image1.png); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:1400px;
+  height:700px;
+  margin:auto;
+}
+header{
+    padding:0 auto;
+    position: relative;
+    width:1000px;
+    height: 31.18px;
+    margin: 0 auto;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 251px;
+    height: 15px;
+    gap:4opx;
+    
+}
+.nav-links a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+.nav-links a:hover,
+.nav-links a:active {
+    color: #FF6565;
+}
+.section1{
+ 
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px; 
+    margin-top: 300px;
+     
+}
+
+.first-box{
+
+  color: #fff;   
+  font-size: 20px;  
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+}
+.dolor{
+    font-weight: bold;
+  font-size: 11px;    
+  font-family: 'Source Sans Pro', sans-serif;
+  color:#ffff;
+  filter: blur(1px)
+}
+.submit-btn{
+    padding: 10px;
+  font-size: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 60px;
+  background-color: rgba(255, 0, 0, 0.705);
+  color:#fff;
+  margin-top: 30px;
+  height: 30px;
+}
+.submit-btn:hover,
+.submit-btn:active {
+    opacity: 0.9;
+    color: #ff6565fd;
+}
+
+.small-text{
+    font-weight: bold;
+    font-size: 20px;
+    font-family:  'Source Sans Pro', sans-serif;
+    color: azure;
+    margin-top: 80px;
+    filter: blur(1px);
+}
+
+
+@media screen and (max-width: 480px) {
+
+    
+
+    .first {
+        height: 350px;
+        padding: 0 10px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    nav {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .nav-links a {
+        font-size: 10px;
+    }
+
+    .section1 {
+        padding: 40px 10px;
+        margin-top: 10px;
+    }
+
+    .first-box {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .dolor {
+        font-size: 10px;
+        filter: blur(0.5px);
+    }
+
+    .submit-btn {
+        width: 120px;
+        height: 28px;
+        font-size: 9px;
+        margin-top: 20px;
+    }
+
+    .small-text {
+        font-size: 13px;
+        margin-top: 20px;
+        filter: blur(0.5px);
+    }
+}
+
