@@ -1,4 +1,6 @@
-
+html{
+    font-family: 'Source Sans Pro', sans-serif;
+}
 .first{
     background-image: url(/IMAGES/image1.png); 
   background-size: cover;
@@ -91,7 +93,7 @@ nav{
     font-family:  'Source Sans Pro', sans-serif;
     color: azure;
     margin-top: 80px;
-    filter: blur(1px);
+    opacity: 0.9;
 }
 
 
@@ -137,7 +139,7 @@ nav{
 
     .dolor {
         font-size: 10px;
-        filter: blur(0.5px);
+        opacity: 0.8;
     }
 
     .submit-btn {
@@ -150,7 +152,7 @@ nav{
     .small-text {
         font-size: 13px;
         margin-top: 20px;
-        filter: blur(0.5px);
+        opacity: 0.8;
     }
 }
 

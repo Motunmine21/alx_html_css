@@ -1,0 +1,92 @@
+.section2 {
+    padding: 4rem 1rem;
+     text-align: center;
+     margin-top: 4rem;
+}
+.features{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+.icon{
+    font-size: 4rem;
+    color: #ff6565;
+    margin-bottom: 30px;
+   
+}
+.section2 h2{
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.text{
+    font-weight: 500;
+    font-size: 17px;
+    font-family:  'Source Sans Pro', sans-serif;
+    color: #666;
+    max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+
+}
+.feature-card p{
+    font-size: 19px;
+    color: #666;
+    margin-top: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.feature-card h3{
+   color: #000;
+   font-family: 'Source Sans Pro', sans-serif;
+   margin-top: 20px;
+}
+
+
+@media screen and (max-width: 480px) {
+
+  .section2 {
+    padding: 2.5rem 1rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .section2 h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .text {
+    font-size: 14px;
+    max-width: 100%;
+    line-height: 1.5;
+  }
+
+  .features {
+    flex-direction: column;   
+    gap: 2.5rem;
+    margin-top: 3rem;
+  }
+
+  .feature-card {
+    max-width: 100%;
+  }
+
+  .icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .feature-card h3 {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+
+  .feature-card p {
+    font-size: 14px;
+    margin-top: 0.8rem;
+    line-height: 1.5;
+  }
+}
