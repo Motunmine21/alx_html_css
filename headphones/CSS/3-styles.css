@@ -1,0 +1,61 @@
+.section4{
+    padding: 4rem 1rem;
+     text-align: center;
+     margin-top: 4rem;
+}
+.section4 h2{
+   margin-bottom: 3rem;
+   font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.label{
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    max-width: 300px;
+    margin:0 auto;
+    color: #000;
+    font-weight: 800;
+    
+}
+hr{
+    max-width: 300px;
+    margin: 0  auto;
+    margin-bottom: 40px;
+   padding-left: 3px;
+    color: #666;
+}  
+.section4 button{
+    margin-bottom: 2rem;
+}  
+
+@media (max-width: 768px) {
+  .section4 {
+    padding: 2.5rem 1rem;
+    margin-top: 2rem;
+  }
+
+  .section4 h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+
+  .label {
+    max-width: 90%;    
+    font-size: 13px;
+    margin: 0 auto 0.5rem;
+  }
+
+  hr {
+    max-width: 90%;     
+    margin: 0 auto 2rem;
+  }
+
+  .section4 button {
+    width: 100%;        
+    max-width: 280px;   
+    margin: 1.5rem auto 0;
+    display: block;
+  }
+}
