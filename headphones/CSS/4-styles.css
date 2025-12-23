@@ -1,0 +1,102 @@
+footer {           
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+footer section {
+    width: 100%;
+    padding: 95px 165px 0 165px;
+    background-color: #071629; 
+     margin-bottom: 60px;
+     height: 250px;
+    
+
+}
+
+
+footer section > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img {
+    width: 169px;   
+    height: 30px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 8px; 
+
+}
+
+.social-icons i {
+   font-size: 1.5rem;
+  color: #fff;
+  margin: 0 10px;
+  cursor: pointer;
+}
+    
+
+
+footer p {
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    font-size: 12px;
+    opacity: 0.35;
+    text-align: center;
+
+    margin-top: 105px;  
+    color: #fff;  
+}
+
+@media (max-width: 768px) {
+  footer {
+    width: 100%;
+    padding: 0;
+  }
+
+  footer section {
+    padding: 3rem 1.5rem 2rem;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  footer section > div {
+    flex-direction: column;   /* stack logo & icons */
+    gap: 2rem;
+    text-align: center;
+  }
+
+  footer img {
+    width: 140px;
+    height: auto;
+  }
+
+  .social-icons {
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  .social-icons i {
+    font-size: 1.3rem;
+  }
+
+  footer p {
+    margin-top: 2rem;
+    font-size: 11px;
+  }
+}
+
+
+
+
+  
+
+
+
+ 
