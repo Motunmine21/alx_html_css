@@ -32,3 +32,41 @@
   font-family: 'Source Sans Pro', sans-serif;
   margin-top: 0.5rem;
 }
+
+@media (max-width: 480px) {
+  .section3 {
+    width: 100%;
+    height: auto;              
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+  }
+
+  .section3 h2 {
+    font-size: 1.6rem;
+  }
+
+  .small {
+    font-size: 14px;
+    max-width: 100%;
+  }
+
+  .shape-icon {
+    flex-direction: column;    
+    gap: 1.5rem;
+    margin-top: 3rem;
+  }
+
+  .pentagon {
+    width: 140px;
+    height: 140px;
+  }
+
+  .pentagon h3 {
+    font-size: 2rem;
+  }
+
+  .pentagon p {
+    font-size: 0.85rem;
+  }
+}
+

@@ -30,7 +30,7 @@ hr{
     margin-bottom: 2rem;
 }  
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .section4 {
     padding: 2.5rem 1rem;
     margin-top: 2rem;
