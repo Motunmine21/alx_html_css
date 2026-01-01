@@ -67,7 +67,7 @@ footer p {
   }
 
   footer section > div {
-    flex-direction: column;   /* stack logo & icons */
+    flex-direction: column;   
     gap: 2rem;
     text-align: center;
   }

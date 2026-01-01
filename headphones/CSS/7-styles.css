@@ -55,7 +55,6 @@
     font-size: 19px;
     color: #666;
     margin-top: 30px;
-    max-width: 350px;
     font-family: 'Source Sans Pro', sans-serif;
 }
 .feature-card h3{
@@ -110,3 +109,83 @@
     line-height: 1.5;
   }
 }
+
+
+
+.pentagon {
+  width: 180px;
+  height: 180px;
+  background-color: #ff6565;
+
+  clip-path: polygon(
+    50% 0%,
+    100% 38%,
+    82% 100%,
+    18% 100%,
+    0% 38%
+  );
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+  text-align: center;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.pentagon h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.pentagon p {
+  font-size: 1rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 0.5rem;
+}
+
+.pentagon:hover {
+  transform: scale(1.1) rotate(5deg);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 480px) {
+  .section3 {
+    width: 100%;
+    height: auto;              
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+  }
+
+  .section3 h2 {
+    font-size: 1.6rem;
+  }
+
+  .small {
+    font-size: 14px;
+    max-width: 100%;
+  }
+
+  .shape-icon {
+    flex-direction: column;    
+    gap: 1.5rem;
+    margin-top: 3rem;
+  }
+
+  .pentagon {
+    width: 140px;
+    height: 140px;
+  }
+
+  .pentagon h3 {
+    font-size: 2rem;
+  }
+
+  .pentagon p {
+    font-size: 0.85rem;
+  }
+}
+
